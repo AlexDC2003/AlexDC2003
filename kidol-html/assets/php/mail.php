@@ -19,7 +19,7 @@ header("Access-Control-Allow-Origin: *");
         }
 
         // Set the recipient email address.
-        $recipient = "your@email.here";
+        $recipient = "alex.sup@gmx.de";
 
         // Set the email subject.
         $subject = "Kidol - Test Mail From $name";

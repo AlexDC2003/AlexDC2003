@@ -23,6 +23,12 @@
   Typography CSS
 -----------------------------------------------------------------------
 */
+
+.logo-main {
+  height: 6.5em;
+  
+}
+
 body {
   color: #2d2d2d;
   font-size: 1rem;
@@ -156,6 +162,11 @@ table p {
   .container {
     max-width: 100%;
   }
+}
+.row-footer {
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .row {
@@ -3215,12 +3226,12 @@ table p {
 .header-middle .header-align {
   align-items: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 .header-middle .header-align .header-align-left .header-logo-area {
-  max-width: 157px;
-  position: relative;
-  top: 1px;
+  max-width: auto;
+  align-items: center;
+  top: 1px; 
 }
 @media only screen and (max-width: 575px) {
   .header-middle .header-align .header-align-left .header-logo-area {
@@ -4020,7 +4031,14 @@ table p {
   -moz-transition: 2s;
   -ms-transition: 2s;
   -o-transition: 2s;
+  
 }
+
+.thumb-three {
+  width: 2em; 
+
+}
+
 @media only screen and (max-width: 575px) {
   .home-slider-area.slider-default .home-slider-item .thumb-three {
     display: none;
@@ -9230,6 +9248,9 @@ table p {
 
 .contact-map-area {
   height: 500px;
+  display: flex;
+  justify-content: center;
+  margin: 5em; 
 }
 @media only screen and (max-width: 1199px) {
   .contact-map-area {
@@ -9243,7 +9264,9 @@ table p {
 }
 .contact-map-area iframe {
   height: 100%;
-  width: 100%;
+  width: 60%;
+  
+  
 }
 
 /*
